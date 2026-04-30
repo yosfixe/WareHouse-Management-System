@@ -1,0 +1,140 @@
+/* Light Theme CSS */
+:root {
+  /* Background Colors */
+  --bg-primary: #f7f8fa;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f9fafb;
+  --bg-hover: #f7f8fa;
+  --bg-selected: #f0f9ff;
+  
+  /* Text Colors */
+  --text-primary: #1a1a1a;
+  --text-secondary: #555555;
+  --text-tertiary: #888888;
+  --text-muted: #aaaaaa;
+  --text-disabled: #cccccc;
+  
+  /* Border Colors */
+  --border-primary: #ebebeb;
+  --border-secondary: #e0e0e0;
+  --border-light: #f0f0f0;
+  --border-divider: #f9f9f9;
+  
+  /* Button Colors */
+  --btn-primary-bg: #1a1a1a;
+  --btn-primary-text: #ffffff;
+  --btn-secondary-bg: #ffffff;
+  --btn-secondary-text: #555555;
+  --btn-secondary-border: #e0e0e0;
+  --btn-hover-bg: #f7f8fa;
+  --btn-hover-text: #1a1a1a;
+  
+  /* Status Colors */
+  --status-critical-bg: #fef2f2;
+  --status-critical-text: #ef4444;
+  --status-critical-border: #fecaca;
+  
+  --status-high-bg: #fff7ed;
+  --status-high-text: #f97316;
+  --status-high-border: #fed7aa;
+  
+  --status-moderate-bg: #fefce8;
+  --status-moderate-text: #eab308;
+  --status-moderate-border: #fef08a;
+  
+  --status-low-bg: #f0fdf4;
+  --status-low-text: #22c55e;
+  --status-low-border: #bbf7d0;
+  
+  /* Role Badge Colors */
+  --role-admin-bg: #fef2f2;
+  --role-admin-text: #991b1b;
+  --role-admin-border: #fecaca;
+  
+  --role-operator-bg: #eff6ff;
+  --role-operator-text: #1e40af;
+  --role-operator-border: #bfdbfe;
+  
+  --role-viewer-bg: #f0fdf4;
+  --role-viewer-text: #166534;
+  --role-viewer-border: #bbf7d0;
+  
+  /* Alert Colors */
+  --alert-warning-bg: #fff7ed;
+  --alert-warning-border: #fed7aa;
+  --alert-warning-text: #f97316;
+  
+  --alert-error-bg: #fef2f2;
+  --alert-error-border: #fecaca;
+  --alert-error-text: #ef4444;
+  
+  --alert-success-bg: #f0fdf4;
+  --alert-success-border: #bbf7d0;
+  --alert-success-text: #22c55e;
+  
+  --alert-info-bg: #eff6ff;
+  --alert-info-border: #bfdbfe;
+  --alert-info-text: #3b82f6;
+  
+  /* Input Colors */
+  --input-bg: #ffffff;
+  --input-border: #e0e0e0;
+  --input-focus-border: #3b82f6;
+  --input-text: #1a1a1a;
+  --input-placeholder: #aaaaaa;
+  
+  /* Modal Colors */
+  --modal-overlay: rgba(0, 0, 0, 0.5);
+  --modal-bg: #ffffff;
+  --modal-header-text: #1a1a1a;
+  
+  /* Sidebar Colors */
+  --sidebar-bg: #ffffff;
+  --sidebar-text: #555555;
+  --sidebar-hover-bg: #f7f8fa;
+  --sidebar-active-bg: #1a1a1a;
+  --sidebar-active-text: #ffffff;
+  --sidebar-border: #f0f0f0;
+  
+  /* Card Colors */
+  --card-bg: #ffffff;
+  --card-border: #ebebeb;
+  --card-shadow: rgba(0, 0, 0, 0.05);
+  
+  /* Table Colors */
+  --table-header-bg: #ffffff;
+  --table-header-text: #aaaaaa;
+  --table-row-hover: #f9fafb;
+  --table-border: #f0f0f0;
+  
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Global Styles */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-tertiary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-secondary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-tertiary);
+}

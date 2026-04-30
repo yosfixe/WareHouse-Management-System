@@ -1,0 +1,17 @@
+# Laravel
+vendor/
+.env
+
+# React & Mobile
+node_modules/
+dist/
+build/
+
+# Expo
+mobile/.expo/
+mobile/android/
+mobile/ios/
+
+# General
+.DS_Store
+*.log 

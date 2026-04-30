@@ -1,0 +1,79 @@
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  /* Colors */
+  --bg-primary: #0f1419;
+  --bg-secondary: #1a1f2e;
+  --bg-tertiary: #252b3b;
+  --bg-hover: #2a3142;
+  
+  /* Text Colors */
+  --text-primary: #e8eaed;
+  --text-secondary: #b4b9c5;
+  --text-tertiary: #8b92a4;
+  --text-muted: #6b7280;
+  
+  /* Border Colors */
+  --border-primary: #2d3548;
+  --border-secondary: #363d52;
+  --border-light: #3a4158;
+  
+  /* Brand Colors */
+  --brand-primary: #ffffff;
+  --brand-accent: #00b4d8;
+  
+  /* Status Colors */
+  --status-success: #10b981;
+  --status-success-bg: #022c22;
+  --status-success-border: #064e3b;
+  
+  --status-warning: #f59e0b;
+  --status-warning-bg: #2d1e00;
+  --status-warning-border: #713f12;
+  
+  --status-error: #ef4444;
+  --status-error-bg: #2d0a0a;
+  --status-error-border: #7f1d1d;
+  
+  --status-info: #f97316;
+  --status-info-bg: #2d1408;
+  --status-info-border: #7c2d12;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.5);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.6);
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(to right, #f97316, #ef4444);
+}
+
+/* Dark mode specific adjustments */
+[data-theme="dark"] .login-container {
+  background-color: #0f1419;
+}
+
+[data-theme="dark"] .menu-backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+[data-theme="dark"] td {
+  border-bottom: 1px solid #2d3548;
+}
+
+[data-theme="dark"] .form-input {
+  background-color: var(--bg-tertiary);
+  border-color: var(--border-primary);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .form-input:focus {
+  border-color: var(--brand-accent);
+}
+
+[data-theme="dark"] .hamburger-btn:hover {
+  background-color: var(--bg-hover);
+}
+
+[data-theme="dark"] .logout-btn:hover {
+  background-color: #3d1414;
+}
